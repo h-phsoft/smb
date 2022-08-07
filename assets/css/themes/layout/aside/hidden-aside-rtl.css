@@ -1,0 +1,30 @@
+@media (min-width: 992px) {
+  .aside-minimize:not(.aside-minimize-hover) .aside {
+    width: 0px;
+  }
+  .aside-fixed.aside-minimize.aside-minimize-hover .aside {
+    width: 265px;
+  }
+  .aside-fixed.aside-minimize.aside-minimize-hover .wrapper {
+    padding-right: 70px;
+  }
+  .aside-fixed.header-fixed.aside-minimize.aside-minimize-hover .header {
+    right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .aside-minimize:not(.aside-minimize-hover) .aside-menu .menu-nav > .menu-item.menu-item-hover > .menu-link {
+    width: 0px;
+  }
+}
+
+.aside-fixed.aside-minimize:not(.aside-minimize-hover) .wrapper {
+  padding-right: 0px;
+}
+.header-fixed.aside-minimize .header {
+  right: 50px;
+}
+.subheader-fixed.aside-minimize .subheader {
+  right: 0px;
+}

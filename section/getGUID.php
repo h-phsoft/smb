@@ -1,0 +1,1 @@
+<?php include_once "Module/CpyFunctions.php" ?><?php include_once "Module/PhFunctions.php" ?><?phpecho cCpyToken::getPhGUID();

@@ -1,0 +1,38 @@
+body {
+  background-color: #fff;
+}
+.header {
+  background-color: #f7f6ff !important;
+}
+.col-form-label {
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+.subheader-solid {
+  color: #FFFFFF !important;
+  background-color: #5580d5 !important;
+}
+.modal-header {
+  background-color: #003399 !important;
+}
+.modal-title {
+  color: #FFFFFF !important;
+}
+.modal-body {
+  background-color: #fbfbff !important;
+}
+.modal-footer {
+  background-color: #5580d5 !important;
+}
+.card-body {
+  background-color: #fbfbff !important;
+}
+
+.form-control {
+  border: 1px solid #5580d570;
+  border-bottom: 1px solid #5580d5;
+}
+.form-control:focus {
+  border-left: 2px solid #5580d5;
+  border-bottom: 3px solid #5580d5;
+}

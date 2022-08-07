@@ -1,0 +1,1 @@
+<?php$aCodes = cCpyCode::$aCodes;include "app/core/core_codes.php";?>

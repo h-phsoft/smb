@@ -1,0 +1,1 @@
+<?phpif ($oUser->oGrp->Id <= 0 || $oUser->oGrp->aPerms[$requestProg->Id]->Query) {  ?>  <button id="ph_toggleCriteria" class="btn btn-light-success font-weight-bold text-center mx-1 pl-4 pr-2 d-print-none" data-toggle="tooltip" title="<?php echo getLabel('Toggle View'); ?>">    <i class="icon-x la la-toggle-on"></i>  </button>  <?php}?>

@@ -1,0 +1,1 @@
+<?phpif ($oUser->oGrp->Id <= 0 || $oUser->oGrp->aPerms[$requestProg->Id]->Delete) {  ?>  <button id="ph_delete" class="btn btn-light-danger font-weight-bold text-center mx-1 pl-4 pr-2 d-print-none" data-toggle="tooltip" title="<?php echo getLabel('Delete'); ?>">    <i class="icon-x flaticon2-rubbish-bin"></i>  </button>  <?php}?>

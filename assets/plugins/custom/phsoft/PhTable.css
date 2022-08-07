@@ -1,0 +1,23 @@
+.ph-table-header {
+  font-weight: bold !important;
+  background-color: #EEF0F2 !important;
+}
+.ph-table-col {
+}
+.ph-table-body {
+  overflow: visible;
+}
+.ph-table-row {
+  overflow: visible;
+}
+.ph-table-row-odd {
+}
+.ph-table-row-even {
+  background-color: #EEF0F2 !important;
+}
+.ph-table-cell {
+}
+.ph-table-footer {
+  font-weight: bold !important;
+  background-color: #EEF0F2 !important;
+}

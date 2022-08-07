@@ -1,0 +1,85 @@
+.navi-link {
+  cursor: pointer;
+}
+/* ------------------ */
+.modal {
+  /*position: relative;*/
+}
+.modal-header {
+  padding: 10px 25px 10px 15px !important;
+}
+.modal .modal-dialog {
+  /*position: fixed;*/
+}
+.modal-header{
+  cursor: move;
+}
+.modal-title {
+
+}
+.modal-footer {
+  padding: 10px 25px 10px 15px !important;
+}
+/*
+.pb-4, .py-4 {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+*/
+.form-group {
+  margin-bottom: 0.3rem !important;
+}
+.control-label, .col-form-label {
+  padding-top: 0.4rem !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.form-control-sm {
+  padding: 0rem 0.75rem !important;
+}
+
+.modal-dialog.modal-sm {
+  max-width: 35% !important;
+}
+.modal-dialog.modal-md {
+  max-width: 55% !important;
+}
+.modal-dialog.modal-lg {
+  max-width: 75% !important;
+}
+.modal-dialog.modal-xl {
+  max-width: 85% !important;
+}
+.modal-dialog.modal-wide {
+  max-width: 95% !important;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog.modal-sm {
+    max-width: 100% !important;
+  }
+  .modal-dialog.modal-md {
+    max-width: 100% !important;
+  }
+  .modal-dialog.modal-lg {
+    max-width: 100% !important;
+  }
+  .modal-dialog.modal-xl {
+    max-width: 100% !important;
+  }
+  .modal-dialog.modal-wide {
+    max-width: 100% !important;
+  }
+}
+
+.invalid {
+  border: 1px solid red !important;
+}
+.jstree-default .jstree-clicked {
+  background: #DEDFDF !important;
+}
+
+.ph-table-cell .form-control {
+  /*font-size: small !important;*/
+}

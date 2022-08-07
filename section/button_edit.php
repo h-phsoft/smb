@@ -1,0 +1,1 @@
+<?phpif ($oUser->oGrp->Id <= 0 || $oUser->oGrp->aPerms[$requestProg->Id]->Update) {  ?>  <button id="ph_edit" class="btn btn-light-primary font-weight-bold text-center mx-1 pl-4 pr-2 d-print-none" data-toggle="tooltip" title="<?php echo getLabel('Edit'); ?>">    <i class="icon-x flaticon-edit"></i>  </button>  <?php}?>
